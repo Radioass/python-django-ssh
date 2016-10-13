@@ -5,6 +5,7 @@ MAINTAINER TenxCloud <dev@tenxcloud.com>
 RUN apt-get update && apt-get install -y \
 		supervisor \
                 gcc \
+                vim \
 		gettext \
 		mysql-client libmysqlclient-dev \
 		postgresql-client libpq-dev \
